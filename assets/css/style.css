@@ -21,7 +21,6 @@ header{
     background: #ffffff;
     border-bottom: 3px solid #ccc;
     margin-bottom: 30px;
-    
 }
 header h1{
     background: #4aaaa5;    
@@ -35,16 +34,19 @@ header h1{
     width: 960px;
     margin: 0 auto; 
     background: #ffffff; 
+    height:100%;
+    
 }
 
 section{
-    width:960px;
+    
     margin: 0 auto; 
     background: #ffffff;
     padding: 20px;
-    height:800px;  
+    height:100%; 
     border: 1px solid #dddddd;  
 }
+
 
 section h2{
     font-size:20px;
@@ -99,7 +101,10 @@ p{
     float: left;
     margin:0px 15px 15px 0px;
     border: 1px solid #ccc;
+    height:200px;
+    width:180px;
 }
+
 
 form label{
     font-size: 16px;
@@ -157,7 +162,7 @@ footer{
     padding: 15px;
 }
 
-.portfolio_image:hover #image1 {
+.portfolio_image:hover  {
     opacity: 0.3;
   }
   
@@ -237,67 +242,66 @@ section h4{
 /* Additional Screen Sizes */
 
 /* Width at 980px and below */
-@media screen and (max-width: 980px) {
-    body {
-      background-color: #333;
-    }
+@media screen and (max-width: 640px) {
+    /* The body's bg color will be #333 */
+    
   
-    .wrapper {
-      /* Box-model */
-      width: 100%;
+    /* The wrapper's width will be 600px */
+    .header-div {
+      width: 80%;
+      position: static;
       padding: 20px;
     }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
+    section{
+        width:80%;
+       
+       
     }
-  
-    #sidebar {
-      margin-top: 40px;
+    header{
+        padding: 10px;
+        position: static;
+        
+        
     }
-  }
-  
-  /* Width at 768px and below */
-  @media screen and (max-width: 768px) {
-    body {
-      background-color: #333;
-    }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
-    }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
-    }
-  
-    #sidebar {
-      margin-top: 40px;
-    }
-  }
 
-   /* Width at 640px and below */
-   @media screen and (max-width: 640px) {
-    body {
-      background-color: #333;
+    header h1{
+        background: #4aaaa5;    
+        font-size: 20px;
+        margin-left: 30px;
+        color:#ffffff;
+        display: inline-block;
+        text-align: center;
+        position: static;
+        
     }
-  
-    .wrapper {
-      /* Box-model */
-      width: 100%;
-      padding: 20px;
+    nav{
+        float: left;
+        width: 250px;
+        margin-top: 6px;
+        text-align: center;
     }
-  
-    #main-content,
-    #sidebar {
-      width: 100%;
+    .image{
+        width: 220px;
+        height: 200px;
     }
-  
-    #sidebar {
-      margin-top: 40px;
+
+    .portfolio_image{
+        position: relative;
+        width:85%;
+        height:180px;
+        margin-bottom: 20px;
+        padding: 15px;
+        
     }
+
+    #image2{
+        
+        margin-left: 0px;
+    }
+    #image4{
+        
+        margin-left: 0px;
+    }
+   
   }
+  
