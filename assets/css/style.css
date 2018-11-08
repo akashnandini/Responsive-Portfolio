@@ -242,18 +242,44 @@ section h4{
 /* Additional Screen Sizes */
 
 /* Width at 980px and below */
+
+
+@media only screen and (max-width: 980px) {
+	.header-div {
+        width: 960px;
+        margin: 0 auto;
+    }
+    section{
+        width:960px;
+
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .header-div {
+        width: 650px;
+        
+        padding: 20px;
+      }
+      section{
+          width:450px;
+         
+         
+      }
+}
+
 @media screen and (max-width: 640px) {
     /* The body's bg color will be #333 */
     
   
     /* The wrapper's width will be 600px */
     .header-div {
-      width: 80%;
+      width: 450px;
       position: static;
       padding: 20px;
     }
     section{
-        width:80%;
+        width:450px;
        
        
     }
