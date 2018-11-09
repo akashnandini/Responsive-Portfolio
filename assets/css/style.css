@@ -46,7 +46,15 @@ section{
     height:800px;
 }
 
+.portfolio_section{
+    margin: 0 auto; 
+    background: #ffffff;
+    padding: 20px;
+    height:100%; 
+    
+    height:800px;
 
+}
 section h2{
     font-size:20px;
     padding:15px 0px;
@@ -299,9 +307,7 @@ section h4{
         display: block;
         text-align: center;
         position: static;
-       
-        padding: 15px;
-        
+        padding: 15px;        
         
     }
 
@@ -319,7 +325,9 @@ section h4{
         width: 300px;
         height: 250px;
     }
-   
+    .portfolio_section{
+        height: 1200px;
+    }
     .portfolio_image{
         position: relative;
         width:85%;
