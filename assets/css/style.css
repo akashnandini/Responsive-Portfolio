@@ -322,8 +322,8 @@ section h4{
    
     
     .image{
-        width: 218px;
-        height: 231px;
+        width: 100%;
+        height: auto;
     }
     .portfolio_section{
         height: 1200px;
