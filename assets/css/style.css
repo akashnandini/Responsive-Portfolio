@@ -292,9 +292,8 @@ section h4{
         position: static;
        
     }
-    header{       
-        width: 100%; 
-       
+    header{        
+        position: static;
         
         
     }
@@ -317,8 +316,7 @@ section h4{
         width: 250px;
         margin-top: 10px;
         text-align: center;
-        margin-left: 50px;
-        position: relative;
+        margin-left: 40px;
     }
 
    
