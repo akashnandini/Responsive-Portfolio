@@ -265,11 +265,11 @@ section h4{
 @media only screen and (max-width: 768px) {
     
     .header-div {
-        width: 600px;
+        width: 100%;
       }
       section{
-          width:600px;
-          height:100%;
+          width:100%;
+          height:auto;
       }
 
       .portfolio_image{
@@ -324,6 +324,7 @@ section h4{
     .image{
         width: 100%;
         height: auto;
+        max-width: 400px;
     }
     .portfolio_section{
         height: 1200px;
