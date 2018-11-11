@@ -292,8 +292,9 @@ section h4{
         position: static;
        
     }
-    header{        
-        position: static;
+    header{       
+        width: 100%; 
+       
         
         
     }
